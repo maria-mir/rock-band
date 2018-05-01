@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css?family=Monoton|Satisfy|Roboto:100,200,300,400,500,600,700');
+
+/*---------------Body styles----*/
+
+a{
+    color: white;
+}
+
+a:focus, a:hover{
+    text-decoration: none;
+    color:#d26060;
+}
+
+h1{
+    font-family: Monoton, sans-serif;
+    word-spacing: 0.6em;
+    letter-spacing: 0.1em;
+    font-size: 3em;
+    text-align: center;
+    margin: 10px auto;
+}
+@media (max-width:768px){
+    h1{
+        font-size: 2em;
+    }
+}
+
+body{
+    font-family: Roboto, sans-serif;
+    background-color: #1b1313;
+    color: #666;
+}
+
+/*---------------Header----*/
+nav>ul>li {
+    margin-top: 5px;
+    margin-bottom:5px;
+    border-left:1px solid #501f1f;
+}
+nav>ul>li:first-child {
+    border-left:none;
+}
+
+nav> ul > li:last-child {
+    border-left:1px solid #501f1f;
+    border-right:1px solid #501f1f;
+}
+.nav>li>a {
+    padding: 8px 15px
+    
+}
+
+@media (min-width: 768px){
+    .navbar {
+    border-radius: 0px;
+    }
+}
+
+
+.navbar-default {
+    background-color: #9f2828;
+    border:none;
+    
+}
+
+.nav{
+    font-size: 20px;
+    
+}
+    
+.navbar-default .navbar-nav>li>a {
+    color: #efc2c2;
+}
+.navbar-default .navbar-nav>li>a:hover,  
+.navbar-default .navbar-nav>li>a:focus{
+    color:#d26060;
+}
+
+.fa-angle-double-right{
+    font-size: 22px;
+    color: green;
+    margin-left: 10px;
+}
+.eve-btn{
+    font-size: 16px;
+    margin: 5px 5px;
+    float: right;
+}
+
+.navbar{
+    margin-bottom: 0px;
+    padding:5px 0;
+}
+.bg-footer{
+    background-color:#1b1313;
+    color:#3d3939;
+    border-top: 1px solid #282525;
+    margin-top: 20px;
+    padding-top: 20px;
+}
+
+.bg-footer .row a{
+    font-size: 22px;
+}
+
+.fa-facebook, .fa-twitter, .fa-youtube{
+    margin: 10px 10px;
+    color:#3d3939;
+    
+}
+.m-icon:hover{
+    color: white;
+}    
+.rights, .social{
+    text-align: center;
+}
+@media (max-width:768px){
+    .event{
+        float: right;
+    }
+}
+@media (min-width:768px){
+    .event, .glyphicon-menu-hamburger {
+        display: none;
+    }
+}
+@media (max-width:768px){
+.glyphicon-menu-hamburger{
+    font-size: 30px;
+    color: grey;
+}
+}
+@media (max-width:768px){
+.menu-bar {
+    display: inline-block;
+    position:relative;
+    margin-left: 10px;
+}
+}
+@media (max-width:768px){
+    .dropdown-content{
+    position: absolute;
+    display: none;
+    z-index: 1;
+    border-radius: 1%;
+    box-shadow: 2px 3px 5px #888888
+}
+}
+@media (max-width:768px){
+.menu-bar:hover .dropdown-content{
+    display: block;
+    width: 12em;
+    padding-left: 1em;
+} 
+}
+.navbar .nav .highlight a{
+    color:#d26060;
+}
+.band-title, .meet-band{
+    text-align: center;
+    color: #5c5454
+}
+
+.img-circle{
+    border:5px solid #2a1f1f;
+    z-index: 1;
+    cursor: pointer;
+    position: relative;
+    box-shadow: 2px 2px 8px #3a0f0f;
+}
+
+.pictures{
+    padding: 4em 0em;
+    text-align: center;
+}
+.description{
+    background-color: #671818;
+    color: #e47272;
+    display: block;
+    border-radius: 2%;
+    width: 80%;
+    height: auto;
+    z-index: 0;
+    padding-top: 80px;
+    box-shadow: 2px 2px 8px #593d3d;
+    transform: translate(0px,-70px);
+    margin: auto;
+}
+.row .col-xs-12 .video {
+    width: 100%;
+    height: auto;
+    
+}
+
+video {
+   display: block;
+    margin: 30px auto;
+    max-width: 100%;
+    border: 5px solid #0a0909;
+    box-shadow: 6px 6px 20px #110404;
+
+}
+h2{
+    border-bottom: 1px solid #232020;
+   
+}
+.album .picture img{
+    max-width: 100%;
+    border: 10px solid #271d1d;
+    display: block;
+    margin:0 auto;
+}
+.play{
+    margin: 5px auto;
+    display: block;
+}
+.booking{
+    border:none;
+     color: #878383;
+     text-align: center;
+     margin-top: 30px;
+}
+h3{
+   text-align: center; 
+}
+input, textarea{
+    width: 70%;
+}
